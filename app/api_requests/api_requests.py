@@ -1,8 +1,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
+from env import url
 import json
-
-url = "http://fastapi-service:8000/"
 
 def execute_token_login(username="testuser",password="secret"):
     payload = 'username=%s&password=%s'%(username,password)
