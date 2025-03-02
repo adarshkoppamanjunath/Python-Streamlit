@@ -19,6 +19,5 @@ jobs:
     - name: Build and Push Docker Image
       run: |
         IMAGE_NAME=adarsh247/pythonstreamlit
-        TAG=${{ github.sha }} 
-        docker build -t $IMAGE_NAME:$TAG .
-        docker push $IMAGE_NAME:$TAG
+        docker build -t $IMAGE_NAME:latest.
+        docker push $IMAGE_NAME:latest
