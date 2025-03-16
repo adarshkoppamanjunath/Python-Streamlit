@@ -31,7 +31,7 @@ def main():
         st.switch_page("pages/update_item.py")
     if st.button("🗑️Delete Item"):
         st.switch_page("pages/delete_item.py")
-    
+   
     
     if st.button("Logout"):
         st.session_state.clear()

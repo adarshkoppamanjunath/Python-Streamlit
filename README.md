@@ -6,7 +6,7 @@
 - git clone `https://github.com/adarshkoppamanjunath/Python-Streamlit.git`.
 - Install Python and PIP.
 - Navigate to `Python-Streamlit` folder and run `pip install -r requirements.txt`.
-- In `env.py`, change url to  `https://python-flask-apis.onrender.com/`
+- In `secrets.toml`, change url to  `https://python-flask-apis.onrender.com/`
 - Run `streamlit run app\main.py`.
 
 

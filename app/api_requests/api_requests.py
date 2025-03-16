@@ -1,8 +1,9 @@
 import requests
 from requests.auth import HTTPBasicAuth
-from env import url
+import streamlit as st
 import json
 
+url = st.secrets["url"]
 def execute_token_login(username="testuser",password="secret"):
     payload = 'username=%s&password=%s'%(username,password)
     headers = {

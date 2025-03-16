@@ -1,1 +1,0 @@
-url = "http://fastapi-service:8000/"
